@@ -18,12 +18,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-@RunWith(SpringRunner.class)
+//@RunWith(SpringRunner.class)
 @SpringBootTest
 public class BudgetServiceApplicationTests {
     @Test
     public void test() {
-        
+
     }
 
 //    @Autowired
