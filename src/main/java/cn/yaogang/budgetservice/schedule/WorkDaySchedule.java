@@ -37,7 +37,7 @@ public class WorkDaySchedule {
     @Autowired
     private TransactionRepository transactionRepository;
 
-    @Scheduled(cron = "0 23 * * 1-5")
+    @Scheduled(cron = "0 0 23 * * MON-FRI")
     public void record() throws IOException, ParseException {
         System.out.println("Scheduled record");
         List<Own> owns = new ArrayList<>();
